@@ -3,3 +3,138 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(17, 21, 58);
+    overflow: hidden;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.textDiv {
+    font-size: xx-large;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+
+}
+
+#textSection1{
+    font-size: x-large;
+    color: white;
+    margin-left: 2rem;
+}
+
+.icons-div {
+    margin-top: 2rem;
+    margin-right: 2rem;
+}
+
+.cardsSection1{
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    
+}
+
+.cards1 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    background-color: rgb(77, 90, 231);
+
+}
+
+#media-player{
+    padding-left: 1.5rem;
+}
+
+#tv {
+    padding-left: 2rem;
+    font-size: 3.5rem;
+}
+
+.cards2 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    background-color: rgb(1, 192, 154)
+
+}
+
+.cards3 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    background-color: rgb(13, 129, 246);
+
+}
+
+.cards4 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    background-color: rgb(225, 176, 28);
+
+}
+
+.cards5 {
+    display: flex;
+    align-items: center;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    padding-left: 2rem;
+    background-color: rgb(172, 190, 228);
+
+}
+
+#textSection2{
+    font-size: x-large;
+    color: white;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.cardsSection2{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: xx-large;
+    color: white;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.cards6{
+
+    background-color: rgb(54, 65, 108);
+}
+
+.footer{
+    background-color: rgb(94, 105, 157);
+}
