@@ -45,7 +45,12 @@
     margin-left: 2rem;
     margin-right: 2rem;
     
+    
 }
+
+.hoverEffect { transition: all .2s ease-in-out; }
+.hoverEffect:hover { transform: scale(1.1); }
+
 
 .cards1 {
     display: flex;
@@ -130,11 +135,131 @@
 
 }
 
-.cards6{
 
+.cards6 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
     background-color: rgb(54, 65, 108);
+
+}
+
+.cards7 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    background-color: rgb(54, 65, 108);
+
+}
+
+.cards8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    background-color: rgb(54, 65, 108);
+
+}
+
+.cards9 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    background-color: rgb(54, 65, 108);
+
+}
+
+
+.cards10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+    width: 300px;
+    border-radius: 0.5rem;
+    background-color: rgb(54, 65, 108);
+
 }
 
 .footer{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-start;
     background-color: rgb(94, 105, 157);
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+    height: 170px;
+}
+
+.logoDiv {
+
+    margin-left: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.textDiv2{
+    font-size: xx-large;
+    color: white;
+    margin-left: 2rem;
+    max-width: 40%;
+}
+
+.btn-div{
+
+    margin-left: 4rem;
+
+}
+
+#ok-btn{
+    height: 55px;
+    width: 200px;
+    border-radius: 0.5rem;
+    background-color: rgba(94, 105, 157, 0.5);
+    color: white;
+    font-size: xx-large;
+    box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+    border: 0.5px solid #808080;
+}
+
+#dismiss-btn{
+    height: 55px;
+    width: 200px;
+    border-radius: 0.5rem;
+    background-color: rgba(94, 105, 157, 0.5);
+    margin-left: 0.5rem;
+    color: white;
+    font-size: xx-large;
+    box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+    border: 0.5px solid #808080;
+}
+
+#patchText {
+    font-size: 4rem;
+}
+  
+
+.centerIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
